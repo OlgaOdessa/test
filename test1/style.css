@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: antiquewhite;
+  color: rgb(19, 18, 18);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+.foto-acva {
+  width: 300px;
+  border-color: rgb(27, 78, 7);
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+a {
+  color: rgb(18, 32, 109);
+  text-decoration: none;
+}
+a:hover {
+  color: blueviolet;
+}
+a:active {
+  color: brown;
+}
+a:visited {
+  color: rgb(38, 59, 18);
+}
+
+.logo p,
+.link p {
+  color: rgb(22, 22, 22);
+  margin: 5px 10px;
+  padding: 5px 5px;
+  font-weight: 200;
+  font-style: normal;
+}
+.logo {
+  display: flex;
+  padding: 15px 10px;
+  margin: 0;
+  border: 5px solid rgb(17, 85, 11);
+  border-top-width: 10px;
+  border-left-color: grey;
+  border-right-color: gray;
+}
+.link {
+  background: rgb(235, 227, 217);
+  padding: 15px 10px;
+  margin: 5 0 0 0;
+  border: 5px solid rgb(17, 85, 11);
+  border-top-width: 10px;
+  border-left-color: grey;
+  border-right-color: gray;
+}
+h1,
+h2 {
+  margin: 5px 10px;
+}
+
+.box-modal {
+  display: flex;
+  margin: 5px -5px;
+}
+.box-modal > div {
+  flex: 1 1 auto;
+  margin: 0 5px;
+  background-color: aqua;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  box-sizing: border-box;
+}
+
+.list li {
+  color: brown;
+  padding-bottom: 5px;
+  padding-left: 0;
+  list-style: none; /*убираем точки списка*/
+}
+
+.table {
+  width: 100%;
+  border: solid red;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table tr:nth-child(1) {
+  color: rgb(13, 60, 82);
+  font-weight: 800;
+  text-align: center;
+}
+
+.list-link {
+  background-color: aqua;
+  padding: 5px 5px;
+  margin: 5px 0;
+}
+.list-link li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.position {
+  position: relative;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  background: coral;
+}
